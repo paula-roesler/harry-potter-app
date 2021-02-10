@@ -1,0 +1,61 @@
+{
+  "name": "javascript-app-template",
+  "version": "0.0.1",
+  "private": true,
+  "author": "neuefische GmbH",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "contributors": [
+    "Lene Frei",
+    "Jerry Erbs"
+  ],
+  "scripts": {
+    "prettier:write": "prettier --write .",
+    "stylelint": "npx stylelint \"**/*.css\"",
+    "test": "htmlhint --ignore ./build/**/* && prettier --check . && npm run stylelint && eslint --cache --fix src",
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "postinstall": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,css,html,md}": "prettier --write",
+    "*.js": "eslint --cache --fix",
+    "*.css": "stylelint",
+    "*.html": "htmlhint"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.10",
+    "@storybook/addon-a11y": "6.1.17",
+    "@storybook/addon-actions": "6.1.17",
+    "@storybook/addon-design-assets": "6.1.17",
+    "@storybook/addon-essentials": "6.1.17",
+    "@storybook/addon-links": "6.1.17",
+    "@storybook/html": "6.1.17",
+    "babel-loader": "8.2.2",
+    "eslint": "7.19.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-config-standard": "16.0.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "htmlhint": "0.14.2",
+    "husky": "^5.0.9",
+    "lint-staged": "10.5.3",
+    "prettier": "2.2.1",
+    "snowpack": "3.0.11",
+    "stylelint": "13.9.0",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-standard": "20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuefische/javascript-app-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neuefische/javascript-app-template/issues"
+  },
+  "homepage": "https://github.com/neuefische/javascript-app-template#readme"
+}
