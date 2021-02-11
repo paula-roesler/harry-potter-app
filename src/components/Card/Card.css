@@ -1,5 +1,24 @@
 .Card {
-  color: var(--color-primary);
-  border-bottom: 1px solid;
-  padding: 12px;
+  padding: 17px 20px;
+  border-radius: 4px;
+  box-shadow: 7px 7px 5px -6px rgba(17, 17, 17, 0.5);
+  margin: 20px;
+}
+
+.Card__name {
+  color: #fcfcfc;
+}
+
+.Card__characterList {
+  color: #fcfcfc;
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.8em;
+}
+
+.Card__profilePicture {
+  width: 150px;
+  border-radius: 4px;
+  box-shadow: 7px 7px 5px -6px rgba(17, 17, 17, 0.5);
+  margin-bottom: 10px;
 }
