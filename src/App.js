@@ -1,4 +1,5 @@
 import AppHeader from './components/AppHeader'
+// import Button from './components/Button'
 import getCharacters from './services/getCharacters'
 import Card from './components/Card'
 import createElement from './lib/createElement'
@@ -33,4 +34,14 @@ export default function App() {
     )
     document.body.append(errorMessage)
   }
+
+  /*
+  document.body.append(createButtons)
+  
+  function createButtons(onSubmit) {
+    buttonG.addEventListener('click', onSubmit => {})
+    return buttonG
+  }
+  createButtons()
+  */
 }
