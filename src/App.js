@@ -13,7 +13,7 @@ export default function App() {
     .catch(error => handleGetCharacterError(error))
 
   function createCards(characters) {
-    const cards = characters.map(character =>
+    const cards = characters.map(({ image, name, house, ancestry, patronus }) =>
       Card(
         character.image,
         character.name,
