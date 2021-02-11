@@ -5,7 +5,4 @@ export default {
   component: Button,
 }
 
-export const buttonG = () => Button('G').button
-export const buttonH = () => Button('H')
-export const buttonR = () => Button('R')
-export const buttonS = () => Button('S')
+export const defaultbutton = () => Button('Text')

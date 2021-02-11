@@ -1,7 +1,10 @@
-.buttonG {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background-color: var(--color-white);
-  color: var(--color-gryffindor);
+.Button {
+  box-shadow: 0 4px 4px #0004;
+  padding: 0;
+  font-size: 0.8em;
+  width: 100%;
+}
+
+.Button.selected {
+  background: cornflowerblue;
 }

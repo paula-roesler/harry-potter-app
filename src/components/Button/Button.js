@@ -1,26 +1,18 @@
 import createElement from '../../lib/createElement'
 import './Button.css'
 
-export default function () {
-  const buttonG = createElement('button', {
-    className: 'buttonG',
-    innerText: 'G',
-  })
+export default function Button(text, onClick) {
+  const el = createElement('button', { className: 'Button' }, text)
 
-  const buttonH = createElement('button', {
-    className: 'buttonH',
-    innerText: 'H',
-  })
+  el.addEventListener('click', onClick)
 
-  const buttonR = createElement('button', {
-    className: 'buttonR',
-    innerText: 'R',
-  })
+  function toggle() {
+    el.clssList.toggle('selected')
+  }
 
-  const buttonS = createElement('button', {
-    className: 'buttonS',
-    innerText: 'S',
-  })
+  function updateText(text) {
+    el.innerText = text
+  }
 
-  return { buttonG, buttonH, buttonR, buttonS }
+  return { el, toggle, updateText }
 }
