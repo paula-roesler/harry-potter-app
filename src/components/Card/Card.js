@@ -8,7 +8,7 @@ export default function Card(image, name, house, ancestry, patronus) {
     src: image,
   })
 
-  const characterDetails = createElement('div', {
+  const characterDetails = createElement('ul', {
     className: 'characterDetails',
     innerHTML: `
   <ul>  
