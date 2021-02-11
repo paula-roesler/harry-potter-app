@@ -38,16 +38,16 @@ export default function Card(image, name, house, ancestry, patronus) {
     let houseColor
 
     if (house === 'Gryffindor') {
-      houseColor = el.style.background = '#cf1e2e'
+      houseColor = el.style.background = '#cf2f0f'
     }
     if (house === 'Ravenclaw') {
-      el.style.backgroundColor = '#4b90cb'
+      el.style.backgroundColor = '#0b8ced'
     }
     if (house === 'Hufflepuff') {
-      el.style.backgroundColor = '#ffcf47'
+      el.style.backgroundColor = '#edb30b'
     }
     if (house === 'Slytherin') {
-      el.style.backgroundColor = '#016241'
+      el.style.backgroundColor = '#28861f'
     }
     if (house === '') {
       el.style.backgroundColor = 'grey'
