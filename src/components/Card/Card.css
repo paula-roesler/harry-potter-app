@@ -9,7 +9,7 @@
   color: #fcfcfc;
 }
 
-.characterDetails ul {
+.Card__characterList {
   color: #fcfcfc;
   list-style: none;
   padding-left: 0;
