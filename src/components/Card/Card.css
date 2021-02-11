@@ -1,17 +1,18 @@
 .Card {
   color: var(--color-primary);
   border-bottom: 1px solid;
-  padding: 12px;
+  padding: 13px 20px;
+  margin-bottom: 20px;
 }
 
 .names {
-  color: blue;
+  color: #fcfcfc;
 }
 
 .characterDetails {
-  color: darkslategray;
+  color: #fcfcfc;
 }
 
 .profilePicture {
-  border: 5px solid red;
+  width: 200px;
 }
