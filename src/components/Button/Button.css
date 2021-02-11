@@ -1,0 +1,10 @@
+.Button {
+  box-shadow: 0 4px 4px #0004;
+  padding: 0;
+  font-size: 0.8em;
+  width: 100%;
+}
+
+.Button.selected {
+  background: cornflowerblue;
+}
