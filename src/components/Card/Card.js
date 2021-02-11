@@ -2,7 +2,7 @@ import './Card.css'
 import createElement from '../../lib/createElement'
 
 export default function Card(image, name, house, ancestry, patronus) {
-  const characterName = createElement('h2', { className: 'names' }, name)
+  const characterName = createElement('h3', { className: 'names' }, name)
   const profilePicture = createElement('img', {
     className: 'profilePicture',
     src: image,
@@ -33,6 +33,7 @@ export default function Card(image, name, house, ancestry, patronus) {
     characterDetails
   )
 
+  houseColors(house)
   function houseColors(house) {
     let houseColor
 
@@ -53,8 +54,6 @@ export default function Card(image, name, house, ancestry, patronus) {
     }
     return houseColor
   }
-
-  houseColors(house)
 
   return el
 }

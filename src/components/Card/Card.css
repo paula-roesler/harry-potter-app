@@ -1,18 +1,23 @@
 .Card {
-  color: var(--color-primary);
-  border-bottom: 1px solid;
-  padding: 13px 20px;
-  margin-bottom: 20px;
+  padding: 17px 20px;
+  border-radius: 4px;
+  box-shadow: 7px 7px 5px -6px rgba(17, 17, 17, 0.5);
+  margin: 20px;
 }
 
 .names {
   color: #fcfcfc;
 }
 
-.characterDetails {
+.characterDetails ul {
   color: #fcfcfc;
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.8em;
 }
 
 .profilePicture {
-  width: 200px;
+  width: 150px;
+  border-radius: 4px;
+  box-shadow: 7px 7px 5px -6px rgba(17, 17, 17, 0.5);
 }
