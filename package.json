@@ -1,8 +1,8 @@
 {
-  "name": "javascript-app-template",
+  "name": "Harry Potter App",
   "version": "0.0.1",
   "private": true,
-  "author": "neuefische GmbH",
+  "author": "Paula Rösler",
   "description": "",
   "keywords": [],
   "license": "ISC",
@@ -54,10 +54,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neuefische/javascript-app-template.git"
+    "url": "git+https://github.com/paula-roesler/harry-potter-app"
   },
   "bugs": {
-    "url": "https://github.com/neuefische/javascript-app-template/issues"
+    "url": "https://github.com/paula-roesler/harry-potter-app/issues"
   },
-  "homepage": "https://github.com/neuefische/javascript-app-template#readme"
+  "homepage": "https://paularoesler-git-main.paula-roesler.vercel.app/"
 }
