@@ -16,7 +16,7 @@
   font-size: 0.8em;
 }
 
-.profilePicture {
+.Card__profilePicture {
   width: 150px;
   border-radius: 4px;
   box-shadow: 7px 7px 5px -6px rgba(17, 17, 17, 0.5);
