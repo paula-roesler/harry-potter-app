@@ -47,11 +47,11 @@ export default function Card(image, name, house, ancestry, patronus) {
     }
     if (house === 'Hufflepuff') {
       el.style.backgroundImage =
-        'linear-gradient(to top, #c99c06 0%, #eebc1b 100%)'
+        'linear-gradient(to top, #e6a102 0%, #fcd02c 100%)'
     }
     if (house === 'Slytherin') {
       el.style.backgroundImage =
-        'linear-gradient(to top, #228a04 0%, #299e08 100%)'
+        'linear-gradient(to top, #076513 0%, #299e08 100%)'
     }
     if (house === '') {
       el.style.backgroundColor = 'grey'
