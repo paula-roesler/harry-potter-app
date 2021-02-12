@@ -1,17 +1,16 @@
 import './Card.css'
 import createElement from '../../lib/createElement'
 
-export default function Card(image, name, house, ancestry, patronus) {
-  const characterName = createElement('h3', { className: 'names' }, name)
+export default function Card({ image, name, house, ancestry, patronus }) {
+  const characterName = createElement('h3', { className: 'Card__name' }, name)
   const profilePicture = createElement('img', {
-    className: 'profilePicture',
+    className: 'Card__profilePicture',
     src: image,
   })
 
   const characterDetails = createElement('ul', {
-    className: 'characterDetails',
+    className: 'Card__characterList',
     innerHTML: `
-  <ul>  
     <li>
       House: ${house}
     </li>
@@ -21,7 +20,6 @@ export default function Card(image, name, house, ancestry, patronus) {
     <li>
     Patronus: ${patronus}
     </li>
-  <ul>
   `,
   })
 
